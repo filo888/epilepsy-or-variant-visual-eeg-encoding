@@ -5,7 +5,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-234461?style=flat-square)](https://www.python.org/)
 [![Notebook](https://img.shields.io/badge/Jupyter-notebook-F37626?style=flat-square)](spikes_validation_framework.ipynb)
 [![Data](https://img.shields.io/badge/Data-Dryad-4C8C4A?style=flat-square)](https://doi.org/10.5061/dryad.xsj3tx99w)
-[![License](https://img.shields.io/badge/Code-research%20use-6E7781?style=flat-square)](#license)
+[![License](https://img.shields.io/badge/Code-Apache%202.0-6E7781?style=flat-square)](LICENSE)
 
 This repository contains the companion analysis notebook for:
 
@@ -38,6 +38,7 @@ Place the dataset files in the notebook working directory with this layout:
 
 ```text
 .
+|-- LICENSE
 |-- README.md
 |-- requirements.txt
 `-- spikes_validation_framework.ipynb
@@ -48,6 +49,7 @@ Place the dataset files in the notebook working directory with this layout:
 | `spikes_validation_framework.ipynb` | Full code-only analysis notebook, cleared of prior outputs. |
 | `requirements.txt` | Python packages required by the notebook. |
 | `README.md` | Reproducibility guide and data citation. |
+| `LICENSE` | Apache License 2.0 for repository code. |
 
 ---
 
@@ -136,5 +138,6 @@ For this code companion, cite the associated manuscript:
 
 ## License
 
-This repository is provided for research transparency and reproducibility. Dataset reuse is governed by the Dryad dataset record.
+Code in this repository, including the analysis notebook and repository support files, is licensed under the Apache License 2.0. See [`LICENSE`](LICENSE).
 
+The Dryad EEG dataset is not redistributed in this repository. Dataset access and reuse are governed by the Dryad dataset record and its associated terms: https://doi.org/10.5061/dryad.xsj3tx99w
