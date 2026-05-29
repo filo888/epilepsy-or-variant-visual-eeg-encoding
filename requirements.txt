@@ -1,0 +1,16 @@
+ipykernel
+jupyter
+matplotlib
+mne
+nbformat
+numpy
+openpyxl
+pandas
+pyts
+scikit-learn
+scipy
+statsmodels
+torch
+torchvision
+tqdm
+umap-learn
