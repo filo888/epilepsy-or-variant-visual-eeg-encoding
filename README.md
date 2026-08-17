@@ -3,7 +3,7 @@
 ## Visual EEG Encoding for Interpretable Sharp Transient Classification
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-234461?style=flat-square)](https://www.python.org/)
-[![Notebook](https://img.shields.io/badge/Jupyter-notebook-F37626?style=flat-square)](spikes_validation_framework.ipynb)
+[![Notebook](https://img.shields.io/badge/Jupyter-notebook-F37626?style=flat-square)](spikes_validation_framework_submission.ipynb)
 [![Data](https://img.shields.io/badge/Data-Dryad-4C8C4A?style=flat-square)](https://doi.org/10.5061/dryad.xsj3tx99w)
 [![License](https://img.shields.io/badge/Code-Apache%202.0-6E7781?style=flat-square)](LICENSE)
 
@@ -41,12 +41,12 @@ Place the dataset files in the notebook working directory with this layout:
 |-- LICENSE
 |-- README.md
 |-- requirements.txt
-`-- spikes_validation_framework.ipynb
+`-- spikes_validation_framework_submission.ipynb
 ```
 
 | File | Purpose |
 |---|---|
-| `spikes_validation_framework.ipynb` | Full code-only analysis notebook, cleared of prior outputs. |
+| `spikes_validation_framework_submission.ipynb` | Full code-only analysis notebook, cleared of prior outputs. |
 | `requirements.txt` | Python packages required by the notebook. |
 | `README.md` | Reproducibility guide and data citation. |
 | `LICENSE` | Apache License 2.0 for repository code. |
@@ -96,14 +96,14 @@ python -m pip install -r requirements.txt
 Launch Jupyter:
 
 ```bash
-jupyter notebook spikes_validation_framework.ipynb
+jupyter notebook spikes_validation_framework_submission.ipynb
 ```
 
 ---
 
 ## Run Order
 
-1. Open `spikes_validation_framework.ipynb`.
+1. Open `spikes_validation_framework_submission.ipynb`.
 2. Confirm the dataset paths in the first configuration cell.
 3. Run the notebook from top to bottom.
 4. Review the generated tables, figures, and CSV summaries in the output directory.
